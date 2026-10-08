@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+:root { --ink: #18231d; --muted: #849087; --line: #e9eeeb; --cream: #f7faf7; --green: #11845b; --lime: #c9f36b; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: var(--cream); font-family: 'DM Sans', sans-serif; }
+h1,h2,h3,h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+button { font: inherit; cursor: pointer; }
+.sidebar-scroll::-webkit-scrollbar { width: 0; }
+.chart-grid { background-image: linear-gradient(to bottom, #edf1ee 1px, transparent 1px); background-size: 100% 25%; }
+.bar { background: linear-gradient(180deg, #bfe96a 0%, #72ba47 100%); border-radius: 7px 7px 2px 2px; }
+.bar.active { background: linear-gradient(180deg, #21a76f 0%, #087b51 100%); }
+.soft-shadow { box-shadow: 0 8px 35px rgba(33, 69, 48, .06); }
